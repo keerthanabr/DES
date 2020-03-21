@@ -3,8 +3,8 @@ close all;
 clc;
 
 %Input 64 bit key and Message(plain text)
-Message= input('Enter the Message','s');
-key=input('Enter the Key(Exactly 8 characters)','s');
+Message= input('Enter the Message','s'); % sample input: Hi everyone 
+key=input('Enter the Key(Exactly 8 characters)','s'); %sample key:12345678
 
 len=length(Message)*8;
 Message=dec2bin(Message,8)-'0';
