@@ -10,3 +10,7 @@ i.   Key function: to generate 16 subkeys
 ii.  F function: to impliment the F block
 iii. Encryption: main program to generate Cipher text
 iv.  Decrytion: main program to decrypt
+
+Note:
+All the programs must be in the same current folder, as encryption and decrypton uses key and f_func to run.
+Use the cipher binary form of encryption in decryption to get back the original message.
