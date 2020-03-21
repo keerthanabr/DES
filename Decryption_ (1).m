@@ -6,8 +6,8 @@ clc;
 %CT=[1 0 0 0 0 1 0 1 1 1 1 0 1 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 0 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1];
 %key=[0 0 0 1 0 0 1 1 0 0 1 1 0 1 0 0 0 1 0 1 0 1 1 1 0 1 1 1 1 0 0 1 1 0 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1];
 
-Cipher= input('Enter the Cipher','s');
-key=input('Enter the Key(Exactly 8 characters)','s');
+Cipher= input('Enter the Cipher','s'); %sample input: 000101010111000111110000101001100101001000000001111
+key=input('Enter the Key(Exactly 8 characters)','s'); %sample key: 12345678
 Cipher=char(num2cell(Cipher));
 Cipher=reshape(str2num(Cipher),1,[]);
 
